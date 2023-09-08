@@ -1,0 +1,262 @@
+
+
+body {
+    font-weight:bold;
+    background-color: rgb(240, 242, 245, 0.5);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.myButton {
+background-color:#456ac7;
+border-radius:28px;
+border:1px solid #1937ab;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+padding:12px 22px;
+text-decoration:none;
+text-shadow:0px 1px 0px #283266;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.myButton:hover {
+background-color:#2a71bd;
+}
+.myButton:active {
+    position:relative;
+top:1px;
+}
+
+.myButton2 {
+    background-color:#CC0000;
+    border-radius:28px;
+    border:1px solid #990000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    padding:12px 22px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #660000;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .myButton2:hover {
+    background-color:#FF0000;
+    }
+    .myButton2:active {
+    position:relative;
+    top:1px;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+
+    .loginButton {
+        box-shadow:inset 0px 0px 0px 0px #54a3f7;
+        background:linear-gradient(to bottom, #3277ef 5%, #3277ef 100%);
+        background-color:#3277ef;
+        border-radius:14px;
+        border:2px solid #3277ef;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:14px;
+        font-weight:bold;
+        padding:16px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3277ef;
+    }
+    .loginButton:hover {
+        background:linear-gradient(to bottom, #3277ef 5%, #3277ef 100%);
+        background-color:#3277ef;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+    }
+    .loginButton:active {
+        position:relative;
+        top:1px;
+    }
+    
+    .loginButtonContainer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .loginButtonInvalid {
+        box-shadow:inset 0px 0px 0px 0px #c4d1df;
+        background:linear-gradient(to bottom, #c4d1df 5%, #c4d1df 100%);
+        background-color:#c4d1df;
+        border-radius:14px;
+        border:2px solid #c4d1df;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:14px;
+        font-weight:bold;
+        padding:16px 30px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #c4d1df;
+    }
+    
+  
+.title {
+
+}
+
+.form {
+    text-align: center;
+}
+
+form.centered {
+    width: 20%; 
+    margin: 0 auto;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionForm{
+   /* margin-top: 150px;*/
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.inputContainer label {
+    margin-bottom: 5px;
+}
+
+.inputContainer input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #2F5A78;
+    border-radius: 7px;
+}
+
+
+.lastName1 {
+    margin-bottom: 10px;
+}
+
+
+td, th { 
+    border:1px solid #000000; 
+    padding: 5px;
+} 
+th { 
+    background-color: #43b1ff; 
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+table { 
+    border-collapse: collapse; 
+
+} 
+
+#users {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+#users th,
+#users td {
+    padding: 8px; 
+    text-align: left; 
+    border: 1px solid #0e2738; 
+}
+
+#users th {
+text-align: center;
+}
+
+.sectionTable {
+    margin-top: 40px;
+}
+
+.sexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .sexContainer label {
+    margin: 0 10px; 
+  }
+  
+  .sexContainer input[type="radio"] {
+    width: auto; 
+    padding: 5px;
+    border: 1px solid #2F5A78;
+    border-radius: 7px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: center; /* Horizontal */
+   /* align-items: center;  Vertical */
+   /* height: 100vh;  Container height */
+   margin-top: 50px;
+  }
+
+  .inputValid{
+
+  }
+
+  .inputInvalid {
+    box-shadow: 0 0 5px #CC0000;
+  }
+
+  .emailInput.invalid {
+    box-shadow: 0 0 5px #CC0000; /* Invalid state */
+  }
+
+  #email{
+
+  }
+
+.warning {
+    font-size: 10px;
+    color: rgb(150, 0, 0);
+    margin-top: -8px;
+}
+
+.warningDisabled  {
+    font-size: 10px;
+    color: rgb(150, 0, 0);
+    margin-top: -8px;
+    visibility: hidden;
+}
+
+.warningContainer {
+
+}
+
+.linkContainer {
+    margin-top: 10px;
+
+}

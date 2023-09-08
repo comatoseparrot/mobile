@@ -1,0 +1,163 @@
+
+
+body {
+    font-weight:bold;
+    background-color: rgb(222, 136, 216, 0.5);
+
+}
+
+.myButton {
+background-color:#456ac7;
+border-radius:28px;
+border:1px solid #1937ab;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+padding:12px 22px;
+text-decoration:none;
+text-shadow:0px 1px 0px #283266;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.myButton:hover {
+background-color:#2a71bd;
+}
+.myButton:active {
+    position:relative;
+top:1px;
+}
+
+.myButton2 {
+    background-color:#CC0000;
+    border-radius:28px;
+    border:1px solid #990000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    padding:12px 22px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #660000;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    .myButton2:hover {
+    background-color:#FF0000;
+    }
+    .myButton2:active {
+    position:relative;
+    top:1px;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    
+
+.form {
+    text-align: center;
+}
+
+form.centered {
+    width: 20%; 
+    margin: 0 auto;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionForm{
+    margin-top: -20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.inputContainer label {
+    margin-bottom: 5px;
+}
+
+.inputContainer input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #2F5A78;
+    border-radius: 7px;
+}
+
+
+.lastName1 {
+    margin-bottom: 10px;
+}
+
+
+td, th { 
+    border:1px solid #000000; 
+    padding: 5px;
+} 
+th { 
+    background-color: #43b1ff; 
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+table { 
+    border-collapse: collapse; 
+
+} 
+
+#users {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+#users th,
+#users td {
+    padding: 8px; 
+    text-align: left; 
+    border: 1px solid #0e2738; 
+}
+
+#users th {
+text-align: center;
+}
+
+.sectionTable {
+    margin-top: 40px;
+}
+
+.sexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .sexContainer label {
+    margin: 0 10px; 
+  }
+  
+  .sexContainer input[type="radio"] {
+    width: auto; 
+    padding: 5px;
+    border: 1px solid #2F5A78;
+    border-radius: 7px;
+  }
+  

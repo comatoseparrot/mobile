@@ -1,6 +1,7 @@
 import React from 'react';
 import { VStack, FormControl, Input, NativeBaseProvider, Center, Button, Image, Box, Heading, Link } from 'native-base';
 import { useNavigation } from "@react-navigation/native";
+import LogoImage from './logoImage';
 
 export default function Signup() {
     const [formData, setData] = React.useState({});
@@ -101,12 +102,7 @@ export default function Signup() {
     return (
         <Box flex={1} bg="#fff" alignItems="center" justifyContent="center">
         <VStack width="90%" mx="3" maxW="300px">
-            <Image
-                source={require("../assets/logo.png")}
-                alt="Alternate Text"
-                size="xl"
-                marginLeft={75}
-            />
+        <LogoImage/>
         <Center>
             <Heading size="lg" mb="3">
                 Sign Up
